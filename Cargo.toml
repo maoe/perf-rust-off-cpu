@@ -1,0 +1,10 @@
+[package]
+name = "perf-rust-off-cpu"
+version = "0.1.0"
+authors = ["Mitsutoshi Aoe <me@maoe.name>"]
+edition = "2018"
+
+[dependencies]
+
+[profile.release]
+debug = true
